@@ -16,8 +16,10 @@
     * 同一方言大区不同方言区，距离为2；
     * 同一语族不同方言大区，距离为3；
     * 同语系不同语族，距离为4
-2. 用第六次人口普查数据计算得到各地级市内各县人口比例，用下方公式（Liu et al.(2015)）加权得到两两地级市间的方言距离： 
+2. 用第六次人口普查数据计算得到各地级市内各县人口比例，用下方公式（Liu et al.(2015)）加权得到两两地级市间的方言距离：
+
 ![formular](https://github.com/QindanUCL/Chinese_dialect_distance/blob/master/formula.png)
+
 S_Ai为A市中i县的人口比例，S_Bj为B市中j县的人口比例，d_ij为两县的方言距离。 
 求得的方言距离d(A,B)表示任意一个A市的人与任意一个B市的人之间方言距离的期望。
 
@@ -52,7 +54,9 @@ Code in "DialectDist.ipynb".
 * If two counties belong to the same language branch, but different super dialect groups, the distance is 3 
 * If two counties belong to different branches, the distance is then 4
 3. The population proportion of county i in prefecture A is denoted by SAi, and the population proportion of county j in prefecture B by SBj. With the dialectal distance between county i and county j denoted by dij, the dialectal distance between prefecture A and prefecture B is then:
+
 ![formular](https://github.com/QindanUCL/Chinese_dialect_distance/blob/master/formula.png)
+
 The calculated value d(A,B) can be interpreted as the expectation of dialectal distance between a random resident from prefecture A and that from prefecture B.
 
 Outputs:
