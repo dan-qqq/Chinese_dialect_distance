@@ -19,9 +19,10 @@
 2. 用第六次人口普查数据计算得到各地级市内各县人口比例，用下方公式（Liu et al.(2015)）加权得到两两地级市间的方言距离：
 
 ![formular](https://github.com/QindanUCL/Chinese_dialect_distance/blob/master/formula.png)
-
 S_Ai为A市中i县的人口比例，S_Bj为B市中j县的人口比例，d_ij为两县的方言距离。 
 求得的方言距离d(A,B)表示任意一个A市的人与任意一个B市的人之间方言距离的期望。
+
+</br>
 
 输出结果：
 * [汉语方言表](https://github.com/QindanUCL/Chinese_dialect_distance/blob/master/data/Chinese_dialectdict_compl.csv)
@@ -34,6 +35,9 @@ Liu, Y., Xu, X. and Xiao, Z., 2015. The Pattern of Labor Cross-dialects Migranti
 
 ## 其它涉及汉语方言亲疏关系的算法
 [方言互通性指数（郑锦全，1997）](http://www.blyt.net/DOC/DOCUSE7.pdf)
+
+</br>
+</br>
 </br>
 
 # Chinese dialectal distance
