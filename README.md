@@ -34,6 +34,7 @@ Liu, Y., Xu, X. and Xiao, Z., 2015. The Pattern of Labor Cross-dialects Migranti
 
 ## 其它涉及汉语方言亲疏关系的算法
 [方言互通性指数（郑锦全，1997）](http://www.blyt.net/DOC/DOCUSE7.pdf)
+</br>
 
 # Chinese dialectal distance
 Dialects for county-level divisions in China. Get dialectal distance between counties by calculating branch distance of linguistic trees, and then calculate dialectal distance between prefectures with population weighted method.
@@ -48,11 +49,11 @@ Code in "DialectDist.ipynb".
 ## Population weighted method
 1. Extract county population data from census and calculate the proportion of county population in each prefecture.
 2. Generate combinations of all counties and for each combination, we calculate the dialectal distance based on the following assignment rules:
-* If two counties belong to the same sub-dialect group, the distance is 0 
-* If two counties belong to the same dialect group, but different sub-dialect groups, the distance is 1 
-* If two counties belong to the same super dialect group, but different dialect groups, then the distance is 2 
-* If two counties belong to the same language branch, but different super dialect groups, the distance is 3 
-* If two counties belong to different branches, the distance is then 4
+   * If two counties belong to the same sub-dialect group, the distance is 0 
+   * If two counties belong to the same dialect group, but different sub-dialect groups, the distance is 1 
+   * If two counties belong to the same super dialect group, but different dialect groups, then the distance is 2 
+   * If two counties belong to the same language branch, but different super dialect groups, the distance is 3 
+   * If two counties belong to different branches, the distance is then 4
 3. The population proportion of county i in prefecture A is denoted by SAi, and the population proportion of county j in prefecture B by SBj. With the dialectal distance between county i and county j denoted by dij, the dialectal distance between prefecture A and prefecture B is then:
 
 ![formular](https://github.com/QindanUCL/Chinese_dialect_distance/blob/master/formula.png)
