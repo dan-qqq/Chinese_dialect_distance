@@ -1,8 +1,8 @@
 # 汉语方言距离
 [中文](#汉语方言距离)  [Eng](#chinese-dialectal-distance)  
-统计了中国全部县级行政区的方言所属，以语言树的分支距离计算各县方言片之间的方言距离，再以人口加权法计算各地级行政区之间的方言距离。
-代码见“DialectDist.ipynb"，具体方法和对应的输出结果文件见下文。
-注意：县级行政区方言数据来源于《汉语方言大词典》和《中国语言地图集》，由于这两门数据并未找到官方电子数据库，这里是手动整理的，可能存在错漏。
+统计了中国全部县级行政区的方言所属，以语言树的分支距离计算各县方言片之间的方言距离，再以人口加权法计算各地级行政区之间的方言距离。  
+代码见“DialectDist.ipynb"，具体方法和对应的输出结果文件见下文。  
+注意：县级行政区方言数据来源于《汉语方言大词典》和《中国语言地图集》，由于这两门数据并未找到官方电子数据库，这里是手动整理的，可能存在错漏。  
 
 ## 数据来源
 * [汉语方言大词典 the Chinese Dialect Dictionary (CDD, 1991)](https://book.douban.com/subject/1021870/)
@@ -43,9 +43,9 @@ Liu, Y., Xu, X. and Xiao, Z., 2015. The Pattern of Labor Cross-dialects Migranti
 </br>
 
 # Chinese dialectal distance
-Dialects for county-level divisions in China. Get dialectal distance between counties by calculating branch distance of linguistic trees, and then calculate dialectal distance between prefectures with population weighted method.
-Code in "DialectDist.ipynb".
-P.S. Dialectal data of counties comes from CDD (1991) and LAC (2012), of which no official digital dataset is available for now. The dataset presented here is sorted by myself and entry errors are possible.
+Dialects for county-level divisions in China. Get dialectal distance between counties by calculating branch distance of linguistic trees, and then calculate dialectal distance between prefectures with population weighted method.  
+Code in "DialectDist.ipynb".  
+P.S. Dialectal data of counties comes from CDD (1991) and LAC (2012), of which no official digital dataset is available for now. The dataset presented here is sorted by myself and entry errors are possible.  
 
 ## Data source
 * [汉语方言大词典 the Chinese Dialect Dictionary (CDD, 1991)](https://book.douban.com/subject/1021870/)
