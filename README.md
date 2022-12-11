@@ -38,6 +38,10 @@ Liu, Y., Xu, X. and Xiao, Z., 2015. The Pattern of Labor Cross-dialects Migranti
 ## 其它涉及汉语方言亲疏关系的算法
 [方言互通性指数（郑锦全，1997）](http://www.blyt.net/DOC/DOCUSE7.pdf)
 
+## 论文应用
+我基于此数据集做的研究论文已上传arXiv，主题是文化距离对于流动人口定居意愿的影响，详见：
+[The Influence of Cultural Distance on Settlement Intention of Floating Population in China, Dan Qin](https://arxiv.org/abs/2212.01336)
+
 </br>
 </br>
 </br>
@@ -79,3 +83,6 @@ Liu, Y., Xu, X. and Xiao, Z., 2015. The Pattern of Labor Cross-dialects Migranti
 ## Other dialectal distance methods
 [Chinese Dialect Affinity (Cheng,1997)](http://www.blyt.net/DOC/DOCUSE7.pdf)
 
+## Relevant Papers
+The research paper I did based on this dataset has been uploaded to arXiv, please refer to the following link for more details:
+[The Influence of Cultural Distance on Settlement Intention of Floating Population in China, Dan Qin](https://arxiv.org/abs/2212.01336)
